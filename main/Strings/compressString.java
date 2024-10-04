@@ -12,7 +12,6 @@ public class compressString {
         int k = 0;
         int count;
         while(start<chars.length){
-            start = end;
             while(end < chars.length && chars[start] == chars[end]){
                 end++;
             }
